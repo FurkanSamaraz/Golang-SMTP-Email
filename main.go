@@ -10,15 +10,15 @@ func main() {
 	//Gönderen mail adresi.
 	//Sender e-mail address.
 	// !!! Gönderen mail adresinin "Daha az güvenli uygulama erişimi" ni açınız.
-	from := "samaraz545454@gmail.com"
+	from := "Gönderen@gmail.com"
 
 	//gonderen mail sifresi.
 	//sender mail password.
-	password := "Samaraz172754"
+	password := "Parola"
 
 	//Alıcı mail adresi.
 	//Recipient e-mail address.
-	to := []string{"samaraz4545@gmail.com"}
+	to := []string{"Alici@gmail.com"}
 
 	//SMTP ayarları.
 	//SMTP settings.
@@ -42,6 +42,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println("E-mail Gönderildi.")
+	fmt.Println("Process successful.")
 
 }
